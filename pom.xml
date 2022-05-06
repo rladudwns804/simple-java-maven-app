@@ -44,7 +44,6 @@
           </archive>
         </configuration>
       </plugin>
-/*
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
@@ -58,14 +57,13 @@
             <configuration>
               <rules>
                 <requireMavenVersion>
-                  <version>[3.5.4,)</version>
+                  <version>[3.3.9,)</version>
                 </requireMavenVersion>
               </rules>
             </configuration>
           </execution>
         </executions>
       </plugin>
-*/
     </plugins>
   </build>
 </project>
